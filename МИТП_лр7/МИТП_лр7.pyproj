@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="database.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="JOIN.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_db.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Вставка_данных.py" />
